@@ -8,9 +8,10 @@
 1. Clone your project as usual.
 2. Go inside the deepest folder (`ex4`) using `cd` command.
 3. Run `javac *.java`.
-4. Go back to `il` folder (be inside it).
+4. Go back to `src` folder (be inside it).
 > * You can go back one folder at a time using `cd ..`.
-> * Why `il` folder? If you'll notice there is a line `package il.ac.tau.cs.sw1.ex4;` on top of our files.
+> * Why `src` folder? If you'll notice there is a line `package il.ac.tau.cs.sw1.ex4;` on top of our files.
+> * When you run `ls` the output should be `il`.
 5. Run `java il.ac.tau.cs.sw1.ex4.WordPuzzleTester`.
 
 ### General notes:
