@@ -1,6 +1,8 @@
 # hw4 Tester
-## LAST UPDATE: 2022-03-19 18:00
-## PREVIOUS UPDATE: None
+## LAST UPDATE: 2022-03-19 19:15
+* Added instructions regarding how to execute the program on nova with the new package hierarchy that we didn't have until this HW.
+## PREVIOUS UPDATE: 2022-03-19 18:00
+* Tester publish.
 
 ### How to run on nova?
 1. Clone your project as usual.
