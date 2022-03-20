@@ -240,11 +240,17 @@ public class WordPuzzleTester {
 			boolean case2 = (correctGuesses.contains("" + hint[1]) &&
 					!incorrectGuesses.contains("" + hint[0]));  //first char is incorrect
 			// already_guessed shouldn't be changed
-			boolean case3 = already_guessed.equals(copyAlreadyGuessed);
+			boolean case3 = Arrays.equals(already_guessed, copyAlreadyGuessed);
 			// puzzle shouldn't be changed
-			boolean case4 = puzzle.equals(puzzleCopy);
+			boolean case4 = Arrays.equals(puzzle, puzzleCopy);
 			if ( !case1 && !case2 && !case3 && !case4){
 				System.err.println("Error 5.1");
+			}
+			if ( !case3 ){
+				System.err.println("Error 5.3");
+			}
+			if ( !case4 ){
+				System.err.println("Error 5.4");
 			}
 		}
 
