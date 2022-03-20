@@ -20,4 +20,4 @@
 3. If you think of tests that check uncovered parts, send them to me and I'll add it here, credit will be given below.
 
 #### Additional contributors:
-* 
+* Jonathan Yahav
