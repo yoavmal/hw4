@@ -243,7 +243,7 @@ public class WordPuzzleTester {
 			boolean case3 = already_guessed.equals(copyAlreadyGuessed);
 			// puzzle shouldn't be changed
 			boolean case4 = puzzle.equals(puzzleCopy);
-			if ( !case1 && !case2 && case3 && case4){
+			if ( !case1 && !case2 && !case3 && !case4){
 				System.err.println("Error 5.1");
 			}
 		}
